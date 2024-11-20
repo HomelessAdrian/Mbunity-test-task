@@ -1,0 +1,29 @@
+.form-container {
+  position: relative;
+  display: flex;
+  box-shadow: 10px 10px 50px #0000001d;
+  margin-top: 50px;
+  border-radius: 5px;
+  background: var(--white-color);
+  max-width: 1196px;
+  padding: 10px;
+}
+
+.form-container__letter-icon {
+  overflow: hidden;
+  position: absolute;
+  transform: rotate(-23deg);
+  bottom: 0;
+  right: 200px;
+}
+
+@media (max-width: 360px) {
+  .form-container {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .form-container__letter-icon {
+    display: none;
+  }
+}

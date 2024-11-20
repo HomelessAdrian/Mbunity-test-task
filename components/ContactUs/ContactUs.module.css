@@ -1,0 +1,38 @@
+.contact-us {
+  margin-top: 70px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-us__heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-us__heading--primary {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.contact-us__heading--secondary {
+  color: #717171;
+  font-size: 18px;
+}
+
+@media (max-width: 360px) {
+  .contact-us__heading--primary {
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  .contact-us__heading--secondary {
+    max-width: 185px;
+    text-wrap: wrap;
+    font-size: 14px;
+  }
+}
